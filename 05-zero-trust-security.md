@@ -37,7 +37,7 @@ spec:
         paths: ["/hello"]
 
 ```
-
+---
 ### References
 
 - https://istio.io/latest/docs/reference/config/security/authorization-policy/

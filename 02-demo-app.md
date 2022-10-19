@@ -1,8 +1,8 @@
-On both clusters
+### Install the demo app
 
-```
-kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.15/samples/helloworld/helloworld.yaml -l service=helloworld -n sample
-```
+
+https://istio.io/latest/docs/setup/install/multicluster/verify/
+
 
 
 ### Test 
@@ -14,4 +14,7 @@ kubectl exec  -n sample -c sleep \
     -- curl -sS helloworld.sample:5000/hello
 ```
 
-    https://istio.io/latest/docs/setup/install/multicluster/verify/
+
+### Troubleshooting
+
+https://istio.io/latest/docs/ops/diagnostic-tools/multicluster/
